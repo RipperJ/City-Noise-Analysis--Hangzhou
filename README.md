@@ -25,6 +25,7 @@ python payapa.py
 ```bash=
 python cloud.py
 ```
+To filter meaningless words--"stopwords", we add "#" as prefix at lines in wordcloud_raw.txt and get wordcloud.txt, which contains 57 keywords.
 
 3. To get the word-cloud like the picture below, please run the code below, and you'll get "Word_Cloud.html".
 ```bash=
@@ -36,6 +37,7 @@ python buildcloud.py
 ```bash=
 python network.py
 ```
+Each pair in the graph means that this pair exists together (in one paragraph) more than 200 times in context "results.txt".
 ![](https://i.imgur.com/NBVTN9F.png)
 ![](https://i.imgur.com/rJ6SEHH.png)
 ![](https://i.imgur.com/TCLcIQ9.png)
